@@ -6,7 +6,7 @@
   ],
   "compilerOptions": {
     "baseUrl": ".",
-    "types": ["vite"],
+    "types": ["node"],
     "paths": {
       "@/*": ["./src/*"]
     }
