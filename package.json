@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b && vite build && npm install --include=dev",
     "lint": "eslint .",
     "preview": "vite preview",
     "prebuild": "rm -rf node_modules && npm cache clean --force"
@@ -37,7 +37,9 @@
     "tailwindcss-animate": "^1.0.7",
     "zod": "^3.23.8",
     "@vitejs/plugin-react": "^4.3.3",
-    "vite": "^5.4.9",
+    "vite": "^5.4.9"
+  },
+  "devDependencies": {
     "@eslint/js": "^9.9.0",
     "@types/node": "^22.5.4",
     "@types/react": "^18.3.3",
