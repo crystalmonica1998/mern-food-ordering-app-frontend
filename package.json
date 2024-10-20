@@ -8,7 +8,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "prebuild": "rm -rf node_modules && npm cache clean --force"
+    "prebuild": "rm -rf node_modules && npm cache clean --force && npm install --no-package-lock"
   },
   "engines": {
     "node": "18.18.0",
